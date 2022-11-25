@@ -1,0 +1,46 @@
+html,body {
+    height: 100%;
+}
+body {
+    background: #0a0a0a;
+    background-size: 100%;
+    font-family: 'Share Tech Mono', monospace;
+}
+.main{
+    text-align: center;
+    margin-top: 23%;
+}
+p, a{
+    text-decoration: none;
+    text-shadow: 0 0 30px rgb(63, 179, 63),  0 0 20px rgba(10, 230, 10, 0);
+    color: rgb(63, 179, 63);
+}
+.analog{
+    background:  #0a0a0a;
+    border: 2px solid rgb(63, 179, 63);
+    border-radius: 30px;
+    margin: 0px 700px 0px 700px;
+    box-shadow: 0 0 20px rgb(63, 179, 63),  0 0 20px rgba(10, 230, 10, 0);
+    color: rgb(63, 179, 63);
+}
+.digital{
+    background:  #0a0a0a;
+    border: 2px solid rgb(63, 179, 63);
+    border-radius: 30px;
+    margin: 25px 700px 0px 700px;
+    box-shadow: 0 0 20px rgb(63, 179, 63),  0 0 20px rgba(10, 230, 10, 0);
+    color: rgb(63, 179, 63);
+}
+.digital:hover{
+    background: #f1ffe4;
+    color:red;
+    box-shadow: 0 0 60px rgb(63, 179, 63),  0 0 20px rgba(10, 230, 10, 0);
+}
+.analog:hover{
+    background: #f1ffe4;
+    color:black;
+    box-shadow: 0 0 60px rgb(63, 179, 63),  0 0 20px rgba(10, 230, 10, 0);
+}
+p, a:hover{
+    color: rgb(5, 85, 5);
+}
