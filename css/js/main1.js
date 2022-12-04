@@ -1,7 +1,7 @@
 function clock() {
   const date = new Date(); //todo: I create date
   
-  const hours = ((date.getHours() + 11) % 12 + 1); //todo: I create hours, minutes, seconds and match date
+  const hours = ((date.getHours() + 11) % 12 + 1); //todo: I create hours, minutes, seconds and match datee
   const minutes = date.getMinutes();
   const seconds = date.getSeconds();
   
